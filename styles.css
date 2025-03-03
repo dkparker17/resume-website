@@ -237,3 +237,24 @@ strong {
     padding: 20px; /* Add padding around the text for better readability */
     font-size: 20px; /* Optional: Adjust font size to match your design */
 }
+
+/* Work Experience page centering */
+.work-content {
+    display: flex;
+    flex-direction: column; /* Ensure content stacks vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure the container takes up the full height of the screen */
+    text-align: center; /* Optional: ensures text is centered */
+    padding: 20px; /* Optional: Adjust padding as needed */
+}
+
+.work-content .work-text {
+    font-size: 22px; /* Increase font size for readability */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    t
