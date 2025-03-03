@@ -162,9 +162,23 @@ h1 {
     margin-top: 20vh;
 }
 
+.education-content {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.education-img {
+    flex: 0 0 30%;
+    margin-right: 20px;
+}
+
 .education-img img {
     max-width: 100%;
     display: block;
+}
+
+.education-text {
+    flex: 1;
 }
 
 ul {
