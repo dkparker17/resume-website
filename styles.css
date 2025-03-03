@@ -6,6 +6,7 @@ body {
     color: white;
     position: relative;
     min-height: 100vh;
+    font-size: 18px; /* Increased base font size */
 }
 
 header {
@@ -23,7 +24,7 @@ header {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px; /* Increased font size */
     margin: 0;
 }
 
@@ -36,8 +37,8 @@ h1 {
 
 .contact-info p {
     cursor: pointer;
-    margin: 10px 0;
-    font-size: 18px;
+    margin: 15px 0; /* Increased margin */
+    font-size: 22px; /* Increased font size */
 }
 
 .contact-info p:hover {
@@ -69,11 +70,11 @@ h1 {
     color: white;
     border: none;
     border-radius: 8px;
-    padding: 30px 30px;
+    padding: 40px 40px; /* Increased padding */
     cursor: pointer;
     transition: background-color 0.3s ease;
     max-width: 100%;
-    font-size: 18px;
+    font-size: 24px; /* Increased font size */
 }
 
 @media (max-width: 900px) {
@@ -89,7 +90,7 @@ h1 {
 .material-icons {
     vertical-align: middle;
     margin-right: 8px;
-    font-size: 28px;
+    font-size: 32px; /* Increased icon size */
 }
 
 .footer {
@@ -105,16 +106,16 @@ h1 {
 .footer a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 20px; /* Increased margin */
     transition: color 0.3s ease;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 22px; /* Increased font size */
 }
 
 .footer p {
     cursor: pointer;
-    margin: 10px 0;
-    font-size: 18px;
+    margin: 15px 0; /* Increased margin */
+    font-size: 22px; /* Increased font size */
 }
 
 .footer p:hover, .footer a:hover {
@@ -129,10 +130,10 @@ h1 {
     transform: translateX(-50%);
     background-color: #1976d2;
     color: white;
-    padding: 15px 25px;
+    padding: 20px 30px; /* Increased padding */
     border-radius: 8px;
     z-index: 9999;
-    font-size: 20px;
+    font-size: 24px; /* Increased font size */
     opacity: 0;
     transition: opacity 0.5s ease;
 }
@@ -142,7 +143,7 @@ h1 {
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 50px; /* Increased font size */
     border-radius: 50%;
     transition: color 0.3s ease;
     position: absolute;
@@ -188,12 +189,12 @@ ul {
 }
 
 li {
-    margin-bottom: 20px;
-    font-size: 16px;
+    margin-bottom: 25px; /* Increased margin */
+    font-size: 20px; /* Increased font size */
 }
 
 strong {
-    font-size: 24px;
+    font-size: 30px; /* Increased font size */
 }
 
 .employer-link {
