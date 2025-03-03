@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ADD8E6; /* Soft white background */
+    background-color: #659BDF; /* Light blue background */
     color: white;
     position: relative;
     min-height: 100vh;
@@ -65,7 +65,7 @@ h1 {
 }
 
 .button-container button {
-    background-color: #000435; /* Light blue buttons */
+    background-color: #000435; /* Dark blue buttons */
     color: white;
     border: none;
     border-radius: 8px;
@@ -118,12 +118,12 @@ h1 {
 }
 
 .footer p:hover {
-    color: #ADD8E6; /* Change text color to green on hover */
+    color: #ADD8E6; /* Change text color to light blue on hover */
     cursor: pointer;
 }
 
 .footer a:hover {
-    color: #ADD8E6; /* Green on hover */
+    color: #ADD8E6; /* Light blue on hover */
 }
 
 /* Add this CSS to styles.css */
@@ -132,7 +132,7 @@ h1 {
     top: calc(100vh - 215px); /* Above the footer */
     left: 50%;
     transform: translateX(-50%);
-    background-color: #ADD8E6; /* Green popup */
+    background-color: #ADD8E6; /* Light blue popup */
     color: white;
     padding: 15px 25px;
     border-radius: 8px;
@@ -156,7 +156,7 @@ h1 {
 }
 
 .home-button:hover {
-    color: #ADD8E6; /* Green on hover */
+    color: #ADD8E6; /* Light blue on hover */
 }
 
 .education-content {
@@ -194,7 +194,7 @@ h1 {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ADD8E6; /* Mocha brown background */
+    background-color: #659BDF; /* Light blue background */
     color: white;
     position: relative;
     min-height: 100vh;
@@ -247,14 +247,14 @@ strong {
 }
 
 .employer-link:hover {
-    color: #ADD8E6; /* Green on hover */
+    color: #ADD8E6; /* Light blue on hover */
 }
 
 .activities-body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ADD8E6; /* Mocha brown background */
+    background-color: #659BDF; /* Light blue background */
     color: white;
     position: relative;
     min-height: 100vh;
@@ -301,7 +301,7 @@ strong {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ADD8E6; /* Mocha brown background */
+    background-color: #659BDF; /* Light blue background */
     color: white;
     position: relative;
     min-height: 100vh;
@@ -332,7 +332,7 @@ strong {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ADD8E6; /* Mocha brown background */
+    background-color: #ADD8E6; /* Light blue background */
     color: white;
     position: relative;
     min-height: 100vh;
