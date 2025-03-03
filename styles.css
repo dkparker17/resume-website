@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5; /* Soft white background */
+    background-color: #ADD8E6; /* Soft white background */
     color: white;
     position: relative;
     min-height: 100vh;
@@ -65,7 +65,7 @@ h1 {
 }
 
 .button-container button {
-    background-color: #ADD8E6; /* Light blue buttons */
+    background-color: #000435; /* Light blue buttons */
     color: white;
     border: none;
     border-radius: 8px;
@@ -194,7 +194,7 @@ h1 {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5; /* Mocha brown background */
+    background-color: #ADD8E6; /* Mocha brown background */
     color: white;
     position: relative;
     min-height: 100vh;
@@ -254,7 +254,7 @@ strong {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5; /* Mocha brown background */
+    background-color: #ADD8E6; /* Mocha brown background */
     color: white;
     position: relative;
     min-height: 100vh;
@@ -301,7 +301,7 @@ strong {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5; /* Mocha brown background */
+    background-color: #ADD8E6; /* Mocha brown background */
     color: white;
     position: relative;
     min-height: 100vh;
@@ -332,7 +332,7 @@ strong {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5; /* Mocha brown background */
+    background-color: #ADD8E6; /* Mocha brown background */
     color: white;
     position: relative;
     min-height: 100vh;
