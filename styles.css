@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1e3a5f; /* Deep blue background */
+    background-color: #1e3a8a; /* Deep blue background */
     color: white;
     position: relative;
     min-height: 100vh;
 }
 
 header {
-    background-color: #27496d; /* Darker blue */
+    background-color: #0d47a1; /* Darker blue */
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -31,7 +31,7 @@ h1 {
     text-align: center;
     margin-bottom: 10px;
     padding: 5px;
-    background-color: #27496d; /* Darker blue */
+    background-color: #0d47a1;
 }
 
 .contact-info p {
@@ -41,7 +41,7 @@ h1 {
 }
 
 .contact-info p:hover {
-    color: #5dade2; /* Light blue on hover */
+    color: #42a5f5;
     cursor: pointer;
 }
 
@@ -65,7 +65,7 @@ h1 {
 }
 
 .button-container button {
-    background-color: #1e90ff; /* Bright blue buttons */
+    background-color: #1976d2;
     color: white;
     border: none;
     border-radius: 8px;
@@ -83,7 +83,7 @@ h1 {
 }
 
 .button-container button:hover {
-    background-color: #1565c0; /* Darker blue on hover */
+    background-color: #1565c0;
 }
 
 .material-icons {
@@ -93,7 +93,7 @@ h1 {
 }
 
 .footer {
-    background-color: #27496d; /* Darker blue */
+    background-color: #0d47a1;
     padding: 30px 0;
     text-align: center;
     position: absolute;
@@ -117,9 +117,9 @@ h1 {
     font-size: 18px;
 }
 
-.footer p:hover,
-.footer a:hover {
-    color: #5dade2; /* Light blue on hover */
+.footer p:hover, .footer a:hover {
+    color: #42a5f5;
+    cursor: pointer;
 }
 
 .popup {
@@ -127,7 +127,7 @@ h1 {
     top: calc(100vh - 215px);
     left: 50%;
     transform: translateX(-50%);
-    background-color: #1e90ff; /* Bright blue popup */
+    background-color: #1976d2;
     color: white;
     padding: 15px 25px;
     border-radius: 8px;
@@ -151,21 +151,15 @@ h1 {
 }
 
 .home-button:hover {
-    color: #5dade2; /* Light blue on hover */
+    color: #42a5f5;
 }
 
-.education-content,
-.work-content,
-.activites-content,
-.current-studies-content,
-.additional-skills-content {
+.education-content, .work-content, .activities-content, .current-studies-content, .additional-skills-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: left;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 20vh;
 }
 
 .education-img img {
@@ -173,23 +167,18 @@ h1 {
     display: block;
 }
 
-.education-info,
-.work-body,
-.activities-body,
-.current-studies-body,
-.additional-skills-body {
-    font-size: 24px;
-    text-align: center;
-}
-
 ul {
     list-style: none;
     padding-left: 0;
-    text-align: center;
+    text-align: left;
 }
 
 li {
     margin-bottom: 20px;
+    font-size: 16px;
+}
+
+strong {
     font-size: 24px;
 }
 
@@ -200,5 +189,5 @@ li {
 }
 
 .employer-link:hover {
-    color: #5dade2; /* Light blue on hover */
+    color: #42a5f5;
 }
