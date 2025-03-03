@@ -132,7 +132,7 @@ h1 {
     top: calc(100vh - 215px); /* Above the footer */
     left: 50%;
     transform: translateX(-50%);
-    background-color: #ADD8E6; /* Light blue popup */
+    background-color: #000435; /* Light blue popup */
     color: white;
     padding: 15px 25px;
     border-radius: 8px;
