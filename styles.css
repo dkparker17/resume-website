@@ -185,12 +185,13 @@ h1 {
 ul {
     list-style: none;
     padding-left: 0;
-    text-align: left;
+    text-align: center; /* Center the text in the list */
 }
 
 li {
     margin-bottom: 25px; /* Increased margin */
     font-size: 20px; /* Increased font size */
+    text-align: center; /* Center text in list items */
 }
 
 strong {
@@ -205,4 +206,34 @@ strong {
 
 .employer-link:hover {
     color: #42a5f5;
+}
+
+/* Activities and Leadership content centering */
+.activities-content, .additional-skills-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20vh; /* Adjust if you want them positioned lower/higher */
+    text-align: center; /* Ensure text is centered within the container */
+}
+
+.activities-content {
+    flex-direction: column; /* Ensure content is aligned in a column */
+    margin-top: 20vh; /* Adjust based on your layout preferences */
+}
+
+.activities-img {
+    margin-right: 20px;
+}
+
+.activities-img img {
+    max-width: 100%;
+    display: block;
+}
+
+.activities-text {
+    flex: 1;
+    padding: 20px; /* Add padding around the text for better readability */
+    font-size: 20px; /* Optional: Adjust font size to match your design */
 }
