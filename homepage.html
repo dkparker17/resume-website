@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Material Icons font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header>
+        <div class="title-container">
+            <h1>Daniel Parker</h1>
+        </div>
+        <div class="contact-info">
+            <p class="copyable" data-text="(281) 536-1817">Mobile: (281) 536-1817</p>
+            <p class="copyable" data-text="daniel.k.parker17@gmail.com">Email: daniel.k.parker17@gmail.com</p>
+        </div>
+    </header>
+    <div class="button-container">
+        <button onclick="openPage('education.html')">
+            <i class="material-icons">school</i>
+            <div>Education</div>
+        </button>
+        <button onclick="openPage('work_experience.html')">
+            <i class="material-icons">work</i>
+            <div>Work Experience</div>
+        </button>
+        <button onclick="openPage('activities.html')">
+            <i class="material-icons">groups</i>
+            <div>Activities and Leadership</div>
+        </button>
+        <button onclick="openPage('current_studies.html')">
+            <i class="material-icons">book</i>
+            <div>Current Studies</div>
+        </button>
+        <button onclick="openPage('additional_skills.html')">
+            <i class="material-icons">build</i>
+            <div>Additional Skills</div>
+        </button>
+        <button onclick="downloadResume()">
+            <i class="material-icons">cloud_download</i>
+            <div>Download Resume</div>
+        </button>
+    </div>
+
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/daniel-parker-69aa45223/" target="_blank">LinkedIn</a> |
+        <a href="https://www.instagram.com/daniel.parker17" target="_blank">Instagram</a> |
+        <a href="https://github.com/dkparker17" target="_blank">GitHub</a> 
+        <p class="copyable" data-text="daniel.k.parker17@gmail.com">Email: daniel.k.parker17@gmail.com</p>
+        <p class="copyable" data-text="(281) 536-1817">Mobile: (281) 536-1817</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
